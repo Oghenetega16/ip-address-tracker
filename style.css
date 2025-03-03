@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --very-dark-gray: hsl(0, 0%, 17%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Rubik", serif;
+}
+
+/* top section */
+.top {
+    text-align: center;
+    background-image: url(./images/pattern-bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem 1.5rem 6rem 1.5rem;
+}
+
+h1 {
+    color: white;
+    font-weight: 400;
+    margin-top: .6rem;
+}
+
+form {
+    margin: 2rem 0 1.5rem 0;
+    width: 100%;
+    display: flex;
+}
+
+input {
+    padding: 1rem;
+    width: 85%;
+    border-radius: .8rem 0 0 .8rem;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+input::placeholder {
+    font-family: "Rubik", serif;
+}
+
+button {
+    padding: 1rem;
+    background-color: black;
+    border-radius: 0 .8rem .8rem 0;
+    border: none;
+    width: 15%;
+}
+
+.result {
+    background-color: white;
+    padding: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -27%);
+    width: 300px;
+}
+
+span {
+    color: var(--dark-gray);
+    font-size: 10px;
+    font-weight: 700;
+}
+
+h2 {
+    color: var(--very-dark-gray);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* bottom section */
+/* #map {
+    height: 500px;
+    width: 100%;
+    z-index: -2;
+} */
