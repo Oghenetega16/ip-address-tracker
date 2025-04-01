@@ -17,29 +17,29 @@
       <h1>IP Address Tracker</h1>
 
       <form action="">
-        <input type="text" placeholder="Search for any IP address or domain">
-        <button><img src="./images/icon-arrow.svg" alt="arrow icon"></button>
+        <input id="ip-input" type="text" placeholder="Search for any IP address or domain">
+        <button id="search-btn"><img src="./images/icon-arrow.svg" alt="arrow icon"></button>
       </form>
-    </section>
 
-    <div class="result">
-      <div class="address">
-        <span>IP ADDRESS</span>
-        <h2>192.212.174.101</h2>
+      <div class="result">
+        <div class="address">
+          <span>IP ADDRESS</span>
+          <h2 id="ip-address">192.212.174.101</h2>
+        </div>
+        <div class="location">
+          <span>LOCATION</span>
+          <h2 id="location">Brooklyn, NY 10001</h2>
+        </div>
+        <div class="timezone">
+          <span>TIME ZONE</span>
+          <h2 id="timezone">UTC -05:00</h2>
+        </div>
+        <div class="isp">
+          <span>ISP</span>
+          <h2 id="isp">Space X Starlink</h2>
+        </div>
       </div>
-      <div class="location">
-        <span>LOCATION</span>
-        <h2>Brooklyn, NY 10001</h2>
-      </div>
-      <div class="timezone">
-        <span>TIME ZONE</span>
-        <h2>UTC -05:00</h2>
-      </div>
-      <div class="isp">
-        <span>ISP</span>
-        <h2>Space X Starlink</h2>
-      </div>
-    </div>
+    </section>
 
     <section id="map">
     </section>
