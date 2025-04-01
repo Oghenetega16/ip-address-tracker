@@ -99,6 +99,7 @@ h2 {
     .top {
         padding-bottom: 5rem;
         padding-top: 3rem;
+        background-image: url(./images/pattern-bg-desktop.png);
     }
 
     form {
@@ -110,7 +111,7 @@ h2 {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 1.5rem 1rem;
+        padding: 1.5rem 2.5rem;
         text-align: left;
         border-radius: .8rem;
         width: 90%;
@@ -137,11 +138,26 @@ h2 {
         width: 80%;
         margin: 0 auto;
     }
+
+    form {
+        width: 500px;
+        margin: 1.5rem auto;
+    }
 }
 
 @media (min-width: 1440px) {
     .result {
         width: 70%;
         margin: 0 auto;
+    }
+    #map {
+        height: 740px;
+        width: 100%;
+        margin-top: -10rem;
+        z-index: -2;
+    }
+    form {
+        width: 600px;
+        margin: 1.5rem auto;
     }
 }
